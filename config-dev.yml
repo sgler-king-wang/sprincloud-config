@@ -1,2 +1,10 @@
 config:
   info: "master branch,springcloud-config/config-dev.yml version=1"
+  
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource                       #数据源类型
+    driver-class-name: org.gjt.mm.mysql.Driver                         #Mysql驱动
+    url: jdbc:mysql://localhost:3306/db2019?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password:
